@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "PROJECT-01 \u2014 Momentum vs Mean-Reversion",
+    "summary": "Compare momentum vs mean-reversion signals with parameter sweeps and costs.",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Backtesting",
+      "Statistics"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum%2520vs%2520Mean-Reversion"
+  },
+  {
+    "id": 2,
+    "title": "PROJECT-02 \u2014 Portfolio Optimization with Efficient Frontier & Risk Parity",
+    "summary": "Build the efficient frontier; compare MV, risk parity, and equal-weight.",
+    "skills": [
+      "Numpy",
+      "Optimization",
+      "Matplotlib"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%2520Optimization%2520with%2520Efficient%2520Frontier%2520%26%2520Risk%2520Parity"
+  },
+  {
+    "id": 3,
+    "title": "PROJECT-03 \u2014 Pairs Trading Cointegration & Z-Score",
+    "summary": "Stat-arb pairs trading using cointegration tests and z-score entry/exit.",
+    "skills": [
+      "Time Series",
+      "Statsmodels",
+      "Cointegration"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-03-Pairs%2520Trading%2520Cointegration%2520%26%2520Z-Score"
+  },
+  {
+    "id": 4,
+    "title": "PROJECT-04 \u2014 Options Volatility",
+    "summary": "Model and visualize option volatility surfaces; Greeks and IV smiles.",
+    "skills": [
+      "Black\u2013Scholes",
+      "Greeks",
+      "Volatility"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-04-Options%2520Volatility"
+  },
+  {
+    "id": 5,
+    "title": "PROJECT-05 \u2014 ML for Markets",
+    "summary": "Supervised learning for return/volatility classification; robust CV.",
+    "skills": [
+      "Scikit\u2011learn",
+      "Feature Eng.",
+      "Cross\u2011val"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-05-ML%2520for%2520Markets"
+  },
+  {
+    "id": 6,
+    "title": "PROJECT-06 \u2014 Sharpe Ratio Optimization",
+    "summary": "Optimize Sharpe with constraints; sensitivity and robustness checks.",
+    "skills": [
+      "Optimization",
+      "Risk",
+      "Pandas"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-06-Sharpe%2520Ratio%2520Optimization"
+  },
+  {
+    "id": 7,
+    "title": "PROJECT-07 \u2014 Monte Carlo Option Pricing",
+    "summary": "Simulate option prices and Greeks via Monte Carlo; variance reduction.",
+    "skills": [
+      "Monte Carlo",
+      "NumPy",
+      "Random"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-07-Monte%2520Carlo%2520Option%2520Pricing"
+  },
+  {
+    "id": 8,
+    "title": "PROJECT-08 \u2014 Value at Risk & Expected Shortfall",
+    "summary": "Compute VaR and ES (parametric, historical, MC); stress testing.",
+    "skills": [
+      "Risk",
+      "Statistics",
+      "Pandas"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-08-Value%2520at%2520Risk%2520%26%2520Expected%2520Shortfall"
+  },
+  {
+    "id": 9,
+    "title": "PROJECT-09 \u2014 CAPM Factor Models",
+    "summary": "Estimate CAPM betas and factor exposures; regression diagnostics.",
+    "skills": [
+      "Regression",
+      "Finance",
+      "Beta"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-09-CAPM%2520Factor%2520Models"
+  },
+  {
+    "id": 10,
+    "title": "PROJECT-10 \u2014 Daily Returns & Volatility",
+    "summary": "Explore daily returns distributions; volatility clustering & GARCH intro.",
+    "skills": [
+      "Time Series",
+      "Volatility",
+      "Plotting"
+    ],
+    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-10-Daily%2520Returns%2520%26%2520Volatility"
+  }
+]
