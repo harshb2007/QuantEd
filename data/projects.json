@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "PROJECT-01 \u2014 Momentum vs Mean-Reversion",
+    "summary": "Builds and compares momentum and mean-reversion strategies, including parameter sweeps and walk-forward validation.",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Backtesting",
+      "Statistics"
+    ],
+    "impact": "Teaches students how signal design affects risk/return.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum vs Mean-Reversion"
+  },
+  {
+    "id": 2,
+    "title": "PROJECT-02 \u2014 Portfolio Optimization with Efficient Frontier",
+    "summary": "Modern Portfolio Theory with mean\u2013variance, risk parity, and constraints; plots efficient frontier and allocation.",
+    "skills": [
+      "Numpy",
+      "Optimization",
+      "Matplotlib"
+    ],
+    "impact": "Shows how diversification shapes drawdowns and Sharpe.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio Optimization with Efficient Frontier"
+  },
+  {
+    "id": 3,
+    "title": "PROJECT-03 \u2014 Pairs Trading: Cointegration & Z-Score",
+    "summary": "Tests pairs, checks cointegration, builds spread signals, and simulates entry/exit on z-score thresholds.",
+    "skills": [
+      "Time Series",
+      "Statsmodels",
+      "Hedge Ratios"
+    ],
+    "impact": "Explains market-neutral ideas with low beta exposure.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-03-Pairs Trading Cointegration %26 Z-Score"
+  },
+  {
+    "id": 4,
+    "title": "PROJECT-04 \u2014 Options Volatility",
+    "summary": "Estimates historical, implied, and realized vol; builds IV surface snapshots and skew/term structure visuals.",
+    "skills": [
+      "Options",
+      "Volatility",
+      "IV Surface"
+    ],
+    "impact": "Connects volatility to risk management and pricing.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-04-Options Volatility"
+  },
+  {
+    "id": 5,
+    "title": "PROJECT-05 \u2014 ML for Markets",
+    "summary": "Feature engineering, cross-validation, and leakage control to predict returns; compares simple vs complex models.",
+    "skills": [
+      "Machine Learning",
+      "Scikit-learn",
+      "Pipeline"
+    ],
+    "impact": "Teaches caution against overfitting and data snooping.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-05-ML for Markets"
+  },
+  {
+    "id": 6,
+    "title": "PROJECT-06 \u2014 Sharpe Ratio Optimization",
+    "summary": "Maximizes Sharpe with realistic constraints; adds turnover and transaction costs to avoid over-trading.",
+    "skills": [
+      "Optimization",
+      "Risk",
+      "Transaction Costs"
+    ],
+    "impact": "Shows the trade-off between returns and trading frictions.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-06-Sharpe Ratio Optimization"
+  },
+  {
+    "id": 7,
+    "title": "PROJECT-07 \u2014 Monte Carlo Option Pricing",
+    "summary": "Simulates geometric Brownian motion, prices European options, and analyzes convergence and variance reduction.",
+    "skills": [
+      "Monte Carlo",
+      "Stochastic Processes",
+      "Options"
+    ],
+    "impact": "Builds intuition for randomness and pricing accuracy.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-07-Monte Carlo Option Pricing"
+  },
+  {
+    "id": 8,
+    "title": "PROJECT-08 \u2014 Value at Risk & Expected Shortfall",
+    "summary": "Computes parametric and historical VaR/ES; stress tests tail scenarios and compares backtests.",
+    "skills": [
+      "Risk Management",
+      "Tail Risk",
+      "Backtesting"
+    ],
+    "impact": "Highlights tail awareness and capital protection.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-08-Value at Risk %26 Expected Shortfall"
+  },
+  {
+    "id": 9,
+    "title": "PROJECT-09 \u2014 CAPM Factor Models",
+    "summary": "Runs CAPM & multi-factor regressions; interprets alpha/beta and residuals; compares sectors and time windows.",
+    "skills": [
+      "Factor Models",
+      "Regression",
+      "Econometrics"
+    ],
+    "impact": "Shows how factor exposure explains performance.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-09-CAPM Factor Models"
+  },
+  {
+    "id": 10,
+    "title": "PROJECT-10 \u2014 Daily Returns & Volatility",
+    "summary": "Calculates log returns, rolling stats, and volatility clustering; visualizes drawdowns and autocorrelation.",
+    "skills": [
+      "Pandas",
+      "Time Series",
+      "Visualization"
+    ],
+    "impact": "Foundation for risk metrics and signal design.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-10-Daily Returns %26 Volatility"
+  }
+]
