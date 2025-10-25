@@ -13,17 +13,18 @@
     "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum vs Mean-Reversion"
   },
   {
-    "id": 2,
-    "title": "PROJECT-02 \u2014 Portfolio Optimization with Efficient Frontier",
-    "summary": "Modern Portfolio Theory with mean\u2013variance, risk parity, and constraints; plots efficient frontier and allocation.",
-    "skills": [
-      "Numpy",
-      "Optimization",
-      "Matplotlib"
-    ],
-    "impact": "Shows how diversification shapes drawdowns and Sharpe.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity"
-  },
+  "id": 2,
+  "title": "PROJECT-02 — Portfolio Optimization with Efficient Frontier",
+  "summary": "Modern Portfolio Theory with mean–variance, risk parity, and constraints; plots efficient frontier and allocation.",
+  "skills": [
+    "Numpy",
+    "Optimization",
+    "Matplotlib"
+  ],
+  "impact": "Shows how diversification shapes drawdowns and Sharpe.",
+  "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity"
+},
+
   {
     "id": 3,
     "title": "PROJECT-03 \u2014 Pairs Trading: Cointegration & Z-Score",
