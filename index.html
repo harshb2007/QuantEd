@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>QuantEd — Quant Projects</title>
+<style>
+:root{
+  --bg:#0b1220; --card:#111a2e; --muted:#9fb0c3; --text:#e9eef7; --accent:#7aa2ff; --chip:#1b2a4a; --chipText:#b8c7de; --yellow:#ffd247;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:radial-gradient(1200px 600px at 10% -10%,#1a2a50 0%, transparent 60%), var(--bg); color:var(--text);}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:32px 20px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;position:sticky;top:0;background:rgba(11,18,32,0.6);backdrop-filter:blur(8px);border-bottom:1px solid #1b2740}
+.brand{font-weight:700}
+.btn{display:inline-block;background:linear-gradient(135deg,#6b8cff,#7aa2ff);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;border:1px solid #89a6ff22;box-shadow:0 6px 26px #7aa2ff33}
+.btn.ghost{background:#121d36;border:1px solid #2b3d68;color:#cfe0ff}
+.grid{display:grid;gap:18px}
+.grid.cards{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.card{background:linear-gradient(180deg,#111a2e,#0e1628);border:1px solid #1d2d53;border-radius:18px;padding:20px}
+.card h3{margin-top:0}
+.hero h1{font-size:48px;line-height:1.1;margin:14px 0 8px}
+.hero p{color:var(--muted);font-size:18px;margin:6px 0 22px}
+.author{font-weight:800;color:var(--yellow);font-size:22px}
+.tag{display:inline-flex;gap:6px;align-items:center;background:var(--chip);color:var(--chipText);padding:6px 10px;border-radius:999px;border:1px solid #2b3d68;font-size:13px;margin-right:8px}
+.h2{font-size:30px;margin:0 0 12px}
+.section{background:linear-gradient(180deg,#0f182a,#0b1220);border:1px solid #1b2740;border-radius:18px;padding:18px}
+.result{background:#0a1326;border:1px solid #1a294a;border-radius:14px;padding:10px;margin:10px 0}
+.result h4{margin:6px 10px;color:#cfe0ff}
+.result img{display:block;width:100%;height:auto;border-radius:10px}
+.kv{display:flex;flex-wrap:wrap;gap:8px;color:#c0d2ea}
+.kv span{background:#0d1930;border:1px solid #1e2b4a;padding:6px 10px;border-radius:8px}
+.small{color:#9fb0c3;font-size:14px}
+.back{margin:10px 0 0;display:inline-block}
+footer{padding:40px 0;color:#91a3be}
+</style>
+</head>
+<body>
+  <div class="nav">
+    <div class="brand">QuantEd</div>
+    <div>
+      <a class="small" href="#projects">Projects</a>
+      &nbsp;&nbsp; <a class="small" href="https://github.com/harshb2007/Quant-Portfolio">Source on GitHub</a>
+    </div>
+  </div>
+
+  <div class="container hero">
+    <h1>QuantEd: Teaching Quantitative Finance Through Real Projects</h1>
+    <div class="author">By Harsh Byjesh — Aspiring Princeton ORFE student.</div>
+    <p>10 hands-on projects blending rigorous math, code, and trading impact — open‑sourced to empower under‑resourced students.</p>
+    <div>
+      <a class="btn" href="#projects">Explore Projects</a>
+      &nbsp; <a class="btn ghost" href="https://github.com/harshb2007/Quant-Portfolio">Source on GitHub</a>
+    </div>
+  </div>
+
+  <div class="container" id="projects">
+    <h2 class="h2">Projects</h2>
+    <div class="grid cards">
+      <!-- cards -->
+      
+      <a class="card" href="projects/01/index.html">
+        <div class="small">#01</div>
+        <h3>Momentum vs Mean‑Reversion</h3>
+        <p class="small">Compare momentum and mean‑reversion under costs with robust backtests and drawdowns.</p>
+      </a>
+      <a class="card" href="projects/02/index.html">
+        <div class="small">#02</div>
+        <h3>Portfolio Optimization & Risk Parity</h3>
+        <p class="small">Trace the efficient frontier and contrast max‑Sharpe, min‑vol, and risk‑parity allocations.</p>
+      </a>
+      <a class="card" href="projects/03/index.html">
+        <div class="small">#03</div>
+        <h3>Pairs Trading with Cointegration & Z‑Score</h3>
+        <p class="small">Build a cointegration‑driven pairs engine and study z‑score based entries/exits.</p>
+      </a>
+      <a class="card" href="projects/04/index.html">
+        <div class="small">#04</div>
+        <h3>Options Volatility (IV Surface, Smile)</h3>
+        <p class="small">Compute IV from options, plot smiles/surfaces, and simulate covered call payoffs.</p>
+      </a>
+      <a class="card" href="projects/05/index.html">
+        <div class="small">#05</div>
+        <h3>Machine Learning for Markets</h3>
+        <p class="small">Apply a simple ML model; evaluate ROC, equity curve, and generalization.</p>
+      </a>
+      <a class="card" href="projects/06/index.html">
+        <div class="small">#06</div>
+        <h3>Sharpe Ratio Optimization</h3>
+        <p class="small">Optimize weights for max Sharpe; study return‑vol trade‑offs and exposures.</p>
+      </a>
+      <a class="card" href="projects/07/index.html">
+        <div class="small">#07</div>
+        <h3>Monte Carlo Option Pricing</h3>
+        <p class="small">Simulate GBM paths, price options, and analyze convergence and terminal distributions.</p>
+      </a>
+      <a class="card" href="projects/08/index.html">
+        <div class="small">#08</div>
+        <h3>Value at Risk (VaR) & Expected Shortfall</h3>
+        <p class="small">Estimate historical VaR/ES and visualize return distributions.</p>
+      </a>
+      <a class="card" href="projects/09/index.html">
+        <div class="small">#09</div>
+        <h3>CAPM & Fama‑French Factors</h3>
+        <p class="small">Regress returns on factors; inspect betas, residuals, and cumulative performance.</p>
+      </a>
+      <a class="card" href="projects/10/index.html">
+        <div class="small">#10</div>
+        <h3>Daily Returns & Volatility</h3>
+        <p class="small">Explore return distributions, drawdowns, and rolling Sharpe/vol on SPY‑like data.</p>
+      </a>
+    </div>
+  </div>
+
+  <footer class="container small">© Harsh Byjesh — QuantEd</footer>
+</body>
+</html>

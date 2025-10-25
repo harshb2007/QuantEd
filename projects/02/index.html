@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PROJECT‑02 — Portfolio Optimization with Efficient Frontier & Risk Parity</title>
+<style>
+:root{
+  --bg:#0b1220; --card:#111a2e; --muted:#9fb0c3; --text:#e9eef7; --accent:#7aa2ff; --chip:#1b2a4a; --chipText:#b8c7de; --yellow:#ffd247;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:radial-gradient(1200px 600px at 10% -10%,#1a2a50 0%, transparent 60%), var(--bg); color:var(--text);}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:32px 20px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;position:sticky;top:0;background:rgba(11,18,32,0.6);backdrop-filter:blur(8px);border-bottom:1px solid #1b2740}
+.brand{font-weight:700}
+.btn{display:inline-block;background:linear-gradient(135deg,#6b8cff,#7aa2ff);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;border:1px solid #89a6ff22;box-shadow:0 6px 26px #7aa2ff33}
+.btn.ghost{background:#121d36;border:1px solid #2b3d68;color:#cfe0ff}
+.grid{display:grid;gap:18px}
+.grid.cards{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.card{background:linear-gradient(180deg,#111a2e,#0e1628);border:1px solid #1d2d53;border-radius:18px;padding:20px}
+.card h3{margin-top:0}
+.hero h1{font-size:48px;line-height:1.1;margin:14px 0 8px}
+.hero p{color:var(--muted);font-size:18px;margin:6px 0 22px}
+.author{font-weight:800;color:var(--yellow);font-size:22px}
+.tag{display:inline-flex;gap:6px;align-items:center;background:var(--chip);color:var(--chipText);padding:6px 10px;border-radius:999px;border:1px solid #2b3d68;font-size:13px;margin-right:8px}
+.h2{font-size:30px;margin:0 0 12px}
+.section{background:linear-gradient(180deg,#0f182a,#0b1220);border:1px solid #1b2740;border-radius:18px;padding:18px}
+.result{background:#0a1326;border:1px solid #1a294a;border-radius:14px;padding:10px;margin:10px 0}
+.result h4{margin:6px 10px;color:#cfe0ff}
+.result img{display:block;width:100%;height:auto;border-radius:10px}
+.kv{display:flex;flex-wrap:wrap;gap:8px;color:#c0d2ea}
+.kv span{background:#0d1930;border:1px solid #1e2b4a;padding:6px 10px;border-radius:8px}
+.small{color:#9fb0c3;font-size:14px}
+.back{margin:10px 0 0;display:inline-block}
+footer{padding:40px 0;color:#91a3be}
+</style>
+</head>
+<body>
+  <div class="nav">
+    <div class="brand"><a href="../../index.html" class="small">← Back</a></div>
+    <div><a class="small" href="https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity">View on GitHub</a></div>
+  </div>
+  <div class="container">
+    <h1 class="h2">PROJECT‑02 — Portfolio Optimization with Efficient Frontier & Risk Parity</h1>
+    <div>
+      <span class="tag">NumPy</span><span class="tag">Optimization</span><span class="tag">Risk Parity</span><span class="tag">Statistics</span>
+    </div>
+    <p class="small" style="margin-top:10px">Reconstructed the modern portfolio theory toolkit on a small universe. Computed mean/variance/covariance and solved for optimal weights.</p>
+    <div style="margin:16px 0 26px">
+      <a class="btn" href="https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity/report%20-2.pdf">Download Report (PDF)</a>
+      &nbsp;<a class="btn ghost" href="https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity">View on GitHub</a>
+    </div>
+
+    <div class="section">
+      <h3 class="h2" style="font-size:22px">Overview & Results</h3>
+      <div class="small" style="margin-bottom:8px">Highlights below (images auto‑scale). All assets live in the portfolio repo so admissions officers can review everything without digging.</div>
+      <div class="result"><h4>Efficient frontier with sample portfolios and the max‑Sharpe point.</h4><img alt="Efficient frontier with sample portfolios and the max‑Sharpe point." src="https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity/results/efficient_frontier.png"/></div>
+    </div>
+
+    <div class="section" style="margin-top:16px">
+      <h3 class="h2" style="font-size:22px">5‑Line Summary</h3>
+      <ul class="small">
+        <li>Reconstructed the modern portfolio theory toolkit on a small universe.</li>
+<li>Computed mean/variance/covariance and solved for optimal weights.</li>
+<li>Plotted the efficient frontier and annotated Sharpe and min‑vol portfolios.</li>
+<li>Contrasted equal‑weight, risk‑parity, and max‑Sharpe allocations.</li>
+<li>Discussed estimation risk and diversification limits.</li>
+      </ul>
+    </div>
+
+    <p class="small" style="margin-top:30px"><a class="back" href="../../index.html">← Back to all projects</a></p>
+  </div>
+  <footer class="container small">© Harsh Byjesh — QuantEd</footer>
+</body>
+</html>
