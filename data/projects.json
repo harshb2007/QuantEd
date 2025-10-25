@@ -1,123 +1,192 @@
 [
   {
     "id": 1,
-    "title": "PROJECT-01 \u2014 Momentum vs Mean-Reversion",
-    "summary": "Compare momentum vs mean-reversion signals with parameter sweeps and costs.",
-    "skills": [
-      "Python",
-      "Pandas",
-      "Backtesting",
-      "Statistics"
+    "title": "PROJECT-01 — Momentum vs Mean-Reversion",
+    "summary": "Compare momentum vs mean-reversion signals with parameter sweeps, walk-forward, and realistic costs.",
+    "skills": ["Python", "Pandas", "Backtesting", "Statistics"],
+    "impact": "Built for teaching under-resourced students; code is fully commented and reproducible.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum%20vs%20Mean-Reversion",
+    "overview": "Two classic signals (trend-following vs mean-reversion) evaluated across look-backs and z-score thresholds with transaction costs.",
+    "objective": "Identify robust signal families across parameters and assets.",
+    "dataset": "Daily OHLC/returns (educational dataset).",
+    "metrics": "CAGR, Sharpe, MaxDD, turnover, hit-rate.",
+    "methods": [
+      "Signal design: k-period momentum; z-score mean-reversion",
+      "Parameter grid + walk-forward validation",
+      "Cost/slippage modeling",
+      "Equity-curve bootstrap for robustness"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum%2520vs%2520Mean-Reversion"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-01-Momentum%20vs%20Mean-Reversion/README.txt"
   },
   {
     "id": 2,
-    "title": "PROJECT-02 \u2014 Portfolio Optimization with Efficient Frontier & Risk Parity",
-    "summary": "Build the efficient frontier; compare MV, risk parity, and equal-weight.",
-    "skills": [
-      "Numpy",
-      "Optimization",
-      "Matplotlib"
+    "title": "PROJECT-02 — Portfolio Optimization with Efficient Frontier & Risk Parity",
+    "summary": "Build the efficient frontier and compare mean-variance, risk parity, and equal-weight allocations.",
+    "skills": ["Numpy", "Optimization", "Matplotlib"],
+    "impact": "Shows diversification’s effect on drawdowns and Sharpe.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity",
+    "overview": "Mean–variance optimization vs risk-parity under long-only constraints; visualize the frontier and allocations.",
+    "objective": "Illustrate return–risk trade-offs and concentration.",
+    "dataset": "Synthetic 5-asset returns.",
+    "metrics": "Expected return, variance, Sharpe, diversification ratio.",
+    "methods": [
+      "Covariance estimation and returns vector",
+      "Quadratic programming for mean–variance",
+      "Iterative risk-parity weights",
+      "Constraint sets: long-only, sum-to-one, caps"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%2520Optimization%2520with%2520Efficient%2520Frontier%2520%26%2520Risk%2520Parity"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-02-Portfolio%20Optimization%20with%20Efficient%20Frontier%20%26%20Risk%20Parity/README.txt"
   },
   {
     "id": 3,
-    "title": "PROJECT-03 \u2014 Pairs Trading Cointegration & Z-Score",
-    "summary": "Stat-arb pairs trading using cointegration tests and z-score entry/exit.",
-    "skills": [
-      "Time Series",
-      "Statsmodels",
-      "Cointegration"
+    "title": "PROJECT-03 — Pairs Trading Cointegration & Z-Score",
+    "summary": "Stat-arb pairs trading using cointegration tests and z-score entry/exit rules.",
+    "skills": ["Time Series", "Statsmodels", "Cointegration"],
+    "impact": "Demonstrates market-neutral strategies accessible to beginners.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-03-Pairs%20Trading%20Cointegration%20%26%20Z-Score",
+    "overview": "Find cointegrated pairs, fit the spread, and trade mean-reversion with band rules and risk controls.",
+    "objective": "Evaluate profitability and stability of cointegration-based mean-reversion.",
+    "dataset": "Two correlated assets (educational sample).",
+    "metrics": "PnL, Sharpe, hit-rate, average spread half-life.",
+    "methods": [
+      "Johansen/Engle-Granger tests",
+      "Spread z-score band strategy",
+      "Stop-loss and time-stop",
+      "Transaction-cost modeling"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-03-Pairs%2520Trading%2520Cointegration%2520%26%2520Z-Score"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-03-Pairs%20Trading%20Cointegration%20%26%20Z-Score/README.txt"
   },
   {
     "id": 4,
-    "title": "PROJECT-04 \u2014 Options Volatility",
-    "summary": "Model and visualize option volatility surfaces; Greeks and IV smiles.",
-    "skills": [
-      "Black\u2013Scholes",
-      "Greeks",
-      "Volatility"
+    "title": "PROJECT-04 — Options Volatility",
+    "summary": "Model and visualize implied volatility; compute Greeks and smiles/surfaces.",
+    "skills": ["Black–Scholes", "Greeks", "Volatility"],
+    "impact": "Connects theory (IV, Greeks) to practical plots and scenarios.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-04-Options%20Volatility",
+    "overview": "From Black–Scholes to IV smiles/surfaces; sensitivity analysis with Greeks.",
+    "objective": "Build intuition for IV dynamics and risk exposures.",
+    "dataset": "Synthetic option chain (educational).",
+    "metrics": "IV error, delta/gamma/vega exposures.",
+    "methods": [
+      "BS pricing + IV inversion",
+      "Surface interpolation",
+      "Scenario/greeks analysis",
+      "Visualization of smiles"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-04-Options%2520Volatility"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-04-Options%20Volatility/README.txt"
   },
   {
     "id": 5,
-    "title": "PROJECT-05 \u2014 ML for Markets",
-    "summary": "Supervised learning for return/volatility classification; robust CV.",
-    "skills": [
-      "Scikit\u2011learn",
-      "Feature Eng.",
-      "Cross\u2011val"
+    "title": "PROJECT-05 — ML for Markets",
+    "summary": "Supervised learning for return/volatility prediction; careful CV and feature engineering.",
+    "skills": ["Scikit-learn", "Feature Eng.", "Cross-val"],
+    "impact": "Teaches pitfalls (leakage) and robust evaluation.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-05-ML%20for%20Markets",
+    "overview": "Classification/regression pipelines for market labels with rolling CV and proper baselines.",
+    "objective": "Show when/why ML helps beyond simple rules.",
+    "dataset": "Engineered features over daily bars.",
+    "metrics": "AUC, F1, MAE/MSE, information ratio.",
+    "methods": [
+      "Target labeling & features",
+      "Rolling/blocked cross-validation",
+      "Model comparison & calibration",
+      "Ablations and feature importance"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-05-ML%2520for%2520Markets"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-05-ML%20for%20Markets/README.txt"
   },
   {
     "id": 6,
-    "title": "PROJECT-06 \u2014 Sharpe Ratio Optimization",
-    "summary": "Optimize Sharpe with constraints; sensitivity and robustness checks.",
-    "skills": [
-      "Optimization",
-      "Risk",
-      "Pandas"
+    "title": "PROJECT-06 — Sharpe Ratio Optimization",
+    "summary": "Maximize Sharpe with long-only/box constraints; analyze sensitivity and robustness.",
+    "skills": ["Optimization", "Risk", "Pandas"],
+    "impact": "Shows how constraints and estimation error affect allocations.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-06-Sharpe%20Ratio%20Optimization",
+    "overview": "Closed-form/SLSQP approaches to Sharpe-optimal portfolios with practical constraints.",
+    "objective": "Demonstrate robust maximization practices.",
+    "dataset": "Synthetic asset returns.",
+    "metrics": "Sharpe, turnover, weight dispersion.",
+    "methods": [
+      "Return/covariance estimation",
+      "SLSQP with constraints",
+      "Resampling/bootstrapping",
+      "Sensitivity analysis"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-06-Sharpe%2520Ratio%2520Optimization"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-06-Sharpe%20Ratio%20Optimization/README.txt"
   },
   {
     "id": 7,
-    "title": "PROJECT-07 \u2014 Monte Carlo Option Pricing",
-    "summary": "Simulate option prices and Greeks via Monte Carlo; variance reduction.",
-    "skills": [
-      "Monte Carlo",
-      "NumPy",
-      "Random"
+    "title": "PROJECT-07 — Monte Carlo Option Pricing",
+    "summary": "Simulate option prices/Greeks with Monte Carlo; variance reduction and convergence checks.",
+    "skills": ["Monte Carlo", "NumPy", "Random"],
+    "impact": "Bridges stochastic calculus and implementable code.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-07-Monte%20Carlo%20Option%20Pricing",
+    "overview": "GBM simulation for calls/puts; control variates/antithetic sampling.",
+    "objective": "Quantify error vs paths/time steps; compare to BS.",
+    "dataset": "Simulated paths; analytical benchmarks.",
+    "metrics": "Pricing error, runtime, variance.",
+    "methods": [
+      "GBM path generation",
+      "Antithetic/control variates",
+      "Greek estimation",
+      "Error analysis vs analytic"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-07-Monte%2520Carlo%2520Option%2520Pricing"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-07-Monte%20Carlo%20Option%20Pricing/README.txt"
   },
   {
     "id": 8,
-    "title": "PROJECT-08 \u2014 Value at Risk & Expected Shortfall",
-    "summary": "Compute VaR and ES (parametric, historical, MC); stress testing.",
-    "skills": [
-      "Risk",
-      "Statistics",
-      "Pandas"
+    "title": "PROJECT-08 — Value at Risk & Expected Shortfall",
+    "summary": "Compute VaR/ES via parametric, historical, and Monte Carlo methods; stress testing.",
+    "skills": ["Risk", "Statistics", "Pandas"],
+    "impact": "Explains tails and limitations of VaR; motivates ES.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-08-Value%20at%20Risk%20%26%20Expected%20Shortfall",
+    "overview": "Loss distribution modeling and tail metrics under multiple assumptions.",
+    "objective": "Compare approaches and highlight pitfalls.",
+    "dataset": "Synthetic portfolio PnL series.",
+    "metrics": "VaR, ES, exceedance rate.",
+    "methods": [
+      "Parametric (normal / t) VaR",
+      "Historical simulation",
+      "MC with fat tails",
+      "Backtesting exceedances"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-08-Value%2520at%2520Risk%2520%26%2520Expected%2520Shortfall"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-08-Value%20at%20Risk%20%26%20Expected%20Shortfall/README.txt"
   },
   {
     "id": 9,
-    "title": "PROJECT-09 \u2014 CAPM Factor Models",
-    "summary": "Estimate CAPM betas and factor exposures; regression diagnostics.",
-    "skills": [
-      "Regression",
-      "Finance",
-      "Beta"
+    "title": "PROJECT-09 — CAPM Factor Models",
+    "summary": "Estimate CAPM betas and factor exposures with linear regression and diagnostics.",
+    "skills": ["Regression", "Finance", "Beta"],
+    "impact": "Connects statistics to risk premia intuition.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-09-CAPM%20Factor%20Models",
+    "overview": "Run market model regressions, interpret alpha/beta, and test residual assumptions.",
+    "objective": "Evaluate exposures and model fit quality.",
+    "dataset": "Asset/benchmark returns.",
+    "metrics": "Alpha, beta, R², residual diagnostics.",
+    "methods": [
+      "OLS with HAC/robust errors",
+      "Rolling betas",
+      "Hypothesis testing",
+      "Out-of-sample validation"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-09-CAPM%2520Factor%2520Models"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-09-CAPM%20Factor%20Models/README.txt"
   },
   {
     "id": 10,
-    "title": "PROJECT-10 \u2014 Daily Returns & Volatility",
-    "summary": "Explore daily returns distributions; volatility clustering & GARCH intro.",
-    "skills": [
-      "Time Series",
-      "Volatility",
-      "Plotting"
+    "title": "PROJECT-10 — Daily Returns & Volatility",
+    "summary": "Explore daily returns distributions, volatility clustering, and GARCH intro.",
+    "skills": ["Time Series", "Volatility", "Plotting"],
+    "impact": "Builds core intuition for risk and distributional shape.",
+    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-10-Daily%20Returns%20%26%20Volatility",
+    "overview": "Descriptive stats, fat tails, and simple conditional volatility modeling.",
+    "objective": "Visualize stylized facts and volatility dynamics.",
+    "dataset": "Daily returns (educational).",
+    "metrics": "Skew/kurtosis, VaR exceedances, volatility persistence.",
+    "methods": [
+      "Histogram/QQ-plot diagnostics",
+      "Rolling volatility",
+      "Basic GARCH(1,1) demo",
+      "Tail risk visualization"
     ],
-    "impact": "Built for teaching under\u2011resourced students; code is fully commented.",
-    "repo": "https://github.com/harshb2007/Quant-Portfolio/tree/main/QUANT%20PORTFOLIO/PROJECT-10-Daily%2520Returns%2520%26%2520Volatility"
+    "readme_raw": "https://raw.githubusercontent.com/harshb2007/Quant-Portfolio/main/QUANT%20PORTFOLIO/PROJECT-10-Daily%20Returns%20%26%20Volatility/README.txt"
   }
 ]
