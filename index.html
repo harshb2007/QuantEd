@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>QuantyZen — Teaching Quantitative Finance Through Models</title>
+<link rel="icon" href="data:,">
+<style>
+:root{
+  --bg:#0d1a22;
+  --panel:#0f2230;
+  --text:#e6f0f7;
+  --muted:#a8c1d1;
+  --brand1:#66a6ff;
+  --brand2:#7c4dff;
+  --accent:#ffd166;
+  --card:#0f2533;
+  --cardStroke:#143040;
+  --pill:#0c2a3a;
+  --green:#7ef29a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:24px 24px 64px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;position:sticky;top:0;background:linear-gradient(180deg, rgba(13,26,34,0.95), rgba(13,26,34,0.7) 70%, rgba(13,26,34,0) 100%);backdrop-filter: blur(6px); z-index:5}
+.brand{font-weight:800;font-size:32px;
+  background:linear-gradient(90deg,var(--brand1),var(--brand2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:.5px}
+.nav a{opacity:.9;margin-left:18px}
+.hero{padding:48px 0 16px}
+.hero h1{font-size:72px;line-height:1.08;margin:6px 0 12px}
+.hero .qz{font-size:84px;line-height:1;display:block;
+  background:linear-gradient(90deg,var(--brand1),var(--brand2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;}
+.subhead{font-size:72px;color:var(--text);font-weight:800;margin:0}
+.subhead small{display:block}
+.kicker{color:var(--accent);font-weight:800;margin:20px 0 8px}
+.lede{color:var(--muted);max-width:1000px;font-size:20px}
+.cta{display:flex;gap:16px;margin:18px 0 8px}
+.btn{padding:14px 22px;border-radius:14px;background:linear-gradient(90deg,#7aa2ff,#8b7bff);font-weight:700;box-shadow:0 6px 24px rgba(120,140,255,.15)}
+.btn.secondary{background:transparent;border:1px solid #1f3b4d;color:var(--text)}
+.section-title{font-size:28px;margin:36px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-top:12px}
+.card{background:var(--card);border:1px solid var(--cardStroke);border-radius:16px;padding:18px;transition:transform .12s ease, box-shadow .12s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.25)}
+.card h3{margin:4px 0 8px;color:var(--green)}
+.card p{color:var(--muted);font-size:15px}
+.back{position:fixed;left:18px;top:18px;background:var(--pill);border:1px solid #184155;padding:10px 14px;border-radius:12px}
+.page{max-width:980px;margin:0 auto;padding:86px 24px 72px}
+.page h1{font-size:44px;margin:12px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+.chip{padding:6px 10px;border-radius:999px;background:var(--pill);font-size:14px;border:1px solid #184155;color:#a9d4ea}
+.actions{display:flex;gap:14px;margin:10px 0 24px}
+.action{padding:12px 16px;border-radius:12px;border:1px solid #1b3a4a}
+.action.p{background:linear-gradient(90deg,#7aa2ff,#8b7bff);font-weight:700}
+.block{background:var(--card);border:1px solid var(--cardStroke);border-radius:16px;padding:16px;margin:14px 0}
+.block h2{margin:4px 0 12px}
+ul.clean{margin:0;padding-left:18px}
+.code{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Consolas,Monaco,Menlo,monospace;color:#d0e8ff;font-size:14px;background:#0a1a24;border:1px solid #143040;border-radius:12px;padding:14px}
+footer{opacity:.7;text-align:center;margin:32px 0}
+@media (max-width:900px){
+  .hero h1,.subhead{font-size:44px}
+  .hero .qz{font-size:56px}
+}
+</style>
+</head>
+<body>
+  <div class="nav">
+    <div class="brand">QuantyZen</div>
+    <div>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+  </div>
+
+  <div class="container hero">
+    <span class="qz">QuantyZen</span>
+    <h1 class="subhead">Teaching Quantitative Finance<br/><small>Through Models</small></h1>
+    <div class="kicker">By Harsh Byjesh — Aspiring Princeton ORFE student.</div>
+    <p class="lede">10 hands-on projects blending rigorous math, code, and trading impact — open-sourced to empower under-resourced students.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">Explore Projects</a>
+      <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+
+    <h2 id="projects" class="section-title">Projects</h2>
+    <div class="grid">
+      
+<a class="card" href="projects/01/index.html">
+  <h3>#01 — Momentum vs Mean-Reversion</h3>
+  <p>Compare momentum and mean-reversion under costs with robust backtests and drawdowns.</p>
+</a>
+
+<a class="card" href="projects/02/index.html">
+  <h3>#02 — Portfolio Optimization & Risk Parity</h3>
+  <p>Trace the efficient frontier; contrast max-Sharpe, min-vol, and risk-parity.</p>
+</a>
+
+<a class="card" href="projects/03/index.html">
+  <h3>#03 — Pairs Trading with Cointegration & Z-Score</h3>
+  <p>Build a cointegration-driven pairs engine and z-score entries/exits.</p>
+</a>
+
+<a class="card" href="projects/04/index.html">
+  <h3>#04 — Options Volatility (IV Surface, Smile)</h3>
+  <p>Compute IV; plot smiles/surfaces; simulate covered call payoffs.</p>
+</a>
+
+<a class="card" href="projects/05/index.html">
+  <h3>#05 — Machine Learning for Markets</h3>
+  <p>Train a simple model; evaluate ROC and equity curves.</p>
+</a>
+
+<a class="card" href="projects/06/index.html">
+  <h3>#06 — Sharpe Ratio Optimization</h3>
+  <p>Optimize weights for max Sharpe; inspect trade-offs and exposures.</p>
+</a>
+
+<a class="card" href="projects/07/index.html">
+  <h3>#07 — Monte Carlo Option Pricing</h3>
+  <p>Simulate GBM; price options; analyze terminal distributions.</p>
+</a>
+
+<a class="card" href="projects/08/index.html">
+  <h3>#08 — Value at Risk (VaR) & Expected Shortfall</h3>
+  <p>Estimate historical VaR/ES and visualize return distributions.</p>
+</a>
+
+<a class="card" href="projects/09/index.html">
+  <h3>#09 — CAPM & Fama-French Factors</h3>
+  <p>Regress returns on factors; inspect betas and residuals.</p>
+</a>
+
+<a class="card" href="projects/10/index.html">
+  <h3>#10 — Daily Returns & Volatility</h3>
+  <p>Compute returns/volatility; rolling Sharpe, drawdowns.</p>
+</a>
+    </div>
+  </div>
+  <footer>© 2025 QuantyZen</footer>
+</body>
+</html>
