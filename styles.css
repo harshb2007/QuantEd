@@ -1,0 +1,56 @@
+/* Base */
+:root{
+  --bg:#0c1923;
+  --text:#eaf2f6;
+  --muted:#a8c0cf;
+  --accent-start:#69a8ff; /* left of gradient */
+  --accent-end:#8f6bff;   /* right of gradient (matches your screenshot) */
+  --yellow:#ffd166;
+  --card:#0f2130;
+  --btn:#2a4b7a;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,sans-serif}
+a{color:#b7cff8;text-decoration:none}
+a:hover{opacity:.9}
+
+.container{max-width:1200px;margin:0 auto;padding:24px}
+
+/* Navbar */
+.nav{position:sticky;top:0;background:rgba(12,25,35,.8);backdrop-filter:saturate(180%) blur(6px);border-bottom:1px solid rgba(255,255,255,.04);z-index:10}
+.nav .container{display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:28px;letter-spacing:.5px}
+.links a{margin-left:16px}
+
+/* Gradient brand */
+.gradient{
+  background:linear-gradient(90deg,var(--accent-start),var(--accent-end));
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+/* Hero */
+.hero{padding:64px 0 24px}
+.brand-line{font-size:72px;line-height:1.05;margin:0 0 8px}
+.colon{color:var(--text);padding-left:8px}
+.hero-line{font-size:72px;font-weight:900;margin:0;line-height:1.05;letter-spacing:.5px}
+.tagline{margin:28px 0 8px;color:var(--yellow);font-weight:800;font-size:24px}
+.deck{color:var(--muted);max-width:1000px;font-size:22px}
+
+/* CTAs */
+.btn{display:inline-block;padding:16px 24px;border-radius:14px;margin-right:14px;font-weight:700}
+.primary{background:linear-gradient(90deg,#6ba6ff,#8a7bff);color:#08131b}
+.ghost{border:1px solid rgba(255,255,255,.15);background:#0e1e2c;color:#d9e7f0}
+
+/* Projects placeholder */
+.projects{padding:64px 24px}
+.projects h2{margin-top:0}
+/* Responsive */
+@media (max-width:1000px){
+  .brand-line,.hero-line{font-size:56px}
+}
+@media (max-width:720px){
+  .brand-line,.hero-line{font-size:40px}
+  .logo{font-size:22px}
+}
