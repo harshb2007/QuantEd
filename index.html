@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>QuantEd — Harsh Byjesh</title><style>
+:root{
+  --bg:#0b1620; --panel:#101a29; --muted:#8aa0b2; --white:#ffffff;
+  --brand:#a2cfff; --accent:#ffd34d; --green:#6ee7a9; --purple-start:#6aa8ff; --purple-end:#8a6bff;
+  --card:#0e1a28; --ring:#1f2f46;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:#dbe7f3;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1.4}
+a{color:#cfe0ff;text-decoration:none}
+a:hover{opacity:.9}
+.container{max-width:1200px;margin:0 auto;padding:28px 20px}
+.header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{font-weight:900;letter-spacing:.5px;
+  font-size:28px;color:#ffffff;background:linear-gradient(90deg,var(--purple-start),var(--purple-end));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.nav a{margin-left:16px;color:#a9c2da}
+.hero{padding:52px 0}
+.h1{font-size:56px;font-weight:900;color:#fff;letter-spacing:.3px;margin:0 0 8px}
+.subtitle{font-size:22px;margin-top:12px;color:#a9c2da}
+.author{font-size:22px;font-weight:800;color:#ffd34d;margin-top:14px}
+.row{display:flex;gap:18px;flex-wrap:wrap}
+.btn{display:inline-block;padding:18px 24px;border-radius:16px;border:1px solid #2a3c58;background:linear-gradient(135deg,var(--purple-start),var(--purple-end));color:#fff;font-weight:800;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.btn.secondary{background:#152238;border-color:#2a3c58}
+.btn.gh{background:#151c12;border:1px solid #39402a;color:var(--accent);font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-top:18px}
+.card{background:var(--panel);border:1px solid var(--ring);border-radius:18px;padding:22px;box-shadow:0 12px 32px rgba(0,0,0,.25)}
+.card h3{margin:6px 0 10px;font-size:22px;font-weight:900;color:var(--green)}
+.card .desc{color:#9fb2c4;font-size:15px}
+.pill{display:inline-block;padding:8px 12px;border-radius:999px;background:#0f2133;border:1px solid #2a3c58;color:#9eb1c4;margin-right:8px;font-weight:700}
+.section{background:var(--panel);border:1px solid var(--ring);border-radius:18px;padding:18px;margin:18px 0;}
+.section h2{margin:6px 0 16px;font-size:30px}
+.result-figure{background:#0f1c2a;border:1px dashed #274161;border-radius:14px;padding:16px;margin:10px 0}
+.result-figure img{width:100%;height:auto;border-radius:12px;display:block}
+.caption{margin-top:10px;color:#bcd2e2}
+.summary h2{color:#fff;font-size:34px;margin-bottom:10px}
+.summary ul{color:#fff;font-size:20px}
+.back-fab{
+  position:fixed;top:16px;left:16px;z-index:9999;background:#0f2133;border:1px solid #274161;border-radius:16px;
+  padding:12px 18px;color:#cfe0ff;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.35)
+}
+.back-fab:hover{transform:translateY(-1px)}
+.spacer{height:12px}
+</style></head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="brand">QuantyZen</div>
+    <div class="nav">
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/harshb2007/Quant-Portfolio" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+  </div>
+  <section class="hero">
+    <!-- QuantyZen centered header -->
+<div class="text-center">
+  <h1 class="text-4xl md:text-5xl font-extrabold text-red-600 tracking-tight">QuantyZen</h1>
+  <p class="mt-2 text-lg md:text-xl font-medium text-white">Teaching Quantitative Finance Through Models</p>
+</div>
+    <div class="author">By Harsh Byjesh — Aspiring Princeton ORFE student.</div>
+    <p class="subtitle">10 hands-on projects blending rigorous math, code, and trading impact — open-sourced to empower under-resourced students.</p>
+    <div class="row">
+      <a class="btn" href="#projects">Explore Projects</a>
+      <a class="btn secondary" href="https://github.com/harshb2007/Quant-Portfolio" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="grid">
+      <a class="card" href="projects/project-01.html"><h3>#01 — Momentum vs Mean-Reversion</h3><div class="desc">Compare momentum and mean-reversion under costs with robust backtests and drawdowns.</div></a>
+      <a class="card" href="projects/project-02.html"><h3>#02 — Portfolio Optimization & Risk Parity</h3><div class="desc">Trace efficient frontier; contrast max-Sharpe, min-vol, and risk-parity.</div></a>
+      <a class="card" href="projects/project-03.html"><h3>#03 — Pairs Trading with Cointegration & Z-score</h3><div class="desc">Build a cointegration-driven pairs engine and study z-score entries/exits.</div></a>
+      <a class="card" href="projects/project-04.html"><h3>#04 — Options Volatility (IV Surface & Smile)</h3><div class="desc">Compute IV; plot smiles/surfaces; simulate covered calls.</div></a>
+      <a class="card" href="projects/project-05.html"><h3>#05 — Machine Learning for Markets</h3><div class="desc">Apply a simple ML model; evaluate ROC, equity curve, and generalization.</div></a>
+      <a class="card" href="projects/project-06.html"><h3>#06 — Sharpe Ratio Optimization</h3><div class="desc">Optimize weights for max Sharpe; study return–vol trade-offs.</div></a>
+      <a class="card" href="projects/project-07.html"><h3>#07 — Monte Carlo Option Pricing</h3><div class="desc">Simulate GBM paths; price options; analyze convergence & distributions.</div></a>
+      <a class="card" href="projects/project-08.html"><h3>#08 — Value at Risk (VaR) & Expected Shortfall</h3><div class="desc">Estimate historical VaR/ES and visualize return distributions.</div></a>
+      <a class="card" href="projects/project-09.html"><h3>#09 — CAPM & Fama–French Factors</h3><div class="desc">Regress returns on factors; inspect betas, residuals, and performance.</div></a>
+      <a class="card" href="projects/project-10.html"><h3>#10 — Daily Returns & Volatility</h3><div class="desc">Analyze price/returns, rolling Sharpe & vol, and drawdowns.</div></a>
+    </div>
+  </section>
+</div>
+</body></html>
